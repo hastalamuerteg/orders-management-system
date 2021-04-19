@@ -14,23 +14,23 @@ And also get an overview on stock statuses, customer registers, sales.
 
 #### Dashboard
 
-![alt]("./screenshots/dashboard.png");
+![alt](/screenshots/dashboard.png);
 
 #### Orders
 
-![alt]("./screenshots/orders.png");
+![alt](/screenshots/orders.png);
 
 #### New order
 
-![alt]("./screenshots/new-order.png");
+![alt](/screenshots/new-order.png);
 
 #### Tags
 
-![alt]("./screenshots/tags.png");
+![alt](/screenshots/tags.png);
 
 #### Change password
 
-![alt]("./screenshots/change-password.png");
+![alt](/screenshots/change-password.png);
 
 ## Technologies ⚙⚙
 
