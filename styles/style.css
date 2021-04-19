@@ -1,8 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap");
 
 :root {
-  --primary-color: #1a23aa;
-  --secondary-color: #2fa894;
+  --primary-color: #242424;
+  --secondary-color: #8fbcc5;
+  --tertiary-color: #d34544;
   --white: #fff;
   --black: #000;
 }
@@ -15,6 +16,7 @@
 
 html {
   font-size: 62, 5%;
+  color: var(--white);
 }
 
 body {
@@ -60,11 +62,11 @@ li {
   transition: all 0.2s;
   border-top-right-radius: 1rem;
   border-bottom-right-radius: 1rem;
-  color: var(--white);
+  color: var(--secondary-color);
 }
 
 .active__tab {
-  background-color: var(--white);
+  background-color: var(--secondary-color);
   color: var(--primary-color);
 }
 .menu__item:nth-child(5) {
@@ -72,7 +74,7 @@ li {
 }
 
 .menu__item:hover {
-  background-color: var(--white);
+  background-color: var(--secondary-color);
   color: var(--primary-color);
 }
 
@@ -85,7 +87,7 @@ li {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: var(--white);
+  background-color: var(--secondary-color);
   border-radius: 5rem;
 }
 
@@ -99,4 +101,30 @@ li {
 
 .inactive {
   display: none;
+}
+
+.secondary-color {
+  color: var(--secondary-color);
+}
+
+.secondary-color-btn {
+  background-color: var(--secondary-color);
+}
+
+.secondary-shadow {
+  box-shadow: 0 0 0.5rem var(--secondary-color);
+}
+
+.dashboard__item {
+  background-color: var(--tertiary-color);
+}
+
+.form-control,
+.form-select {
+  background-color: #121212;
+  border: none;
+}
+
+.form-control:focus {
+  background-color: #121212;
 }
