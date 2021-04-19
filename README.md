@@ -8,7 +8,7 @@ This project is a simple order management system for small stores where you can 
 - Orders
 - Tags
 
-And also get an overview on stock statuses, customer registers, sales.
+And also get an overview on stock statuses, customer registers and sales.
 
 ## Screenshots 📸📸
 
@@ -37,6 +37,7 @@ And also get an overview on stock statuses, customer registers, sales.
 This project was created making use of the following technologies
 
 - HTML5
+- 
 - CSS3
 
 - BootStrap
