@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/styles/style.css" />
+
+    <script
+      src="https://kit.fontawesome.com/fb468be021.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>Drogaria São Paulo</title>
+  </head>
+  <body>
+    <nav class="menu">
+      <ul class="links">
+        <a href="/index.html" class="menu__item dashboard">
+          <li>
+            <i class="fas fa-home dashboard"></i>
+          </li>
+        </a>
+        <a href="/public/orders.html" class="menu__item orders active__tab">
+          <li>
+            <i class="fas fa-shopping-basket orders"></i>
+          </li>
+        </a>
+        <a href="/public/new_order.html" class="menu__item new_order">
+          <li>
+            <i class="fas fa-plus-circle new_order"></i>
+          </li>
+        </a>
+        <a href="/public/tags.html" class="menu__item tags">
+          <li>
+            <i class="fas fa-tags tags"></i>
+          </li>
+        </a>
+        <a class="menu__item change__password">
+          <li>
+            <i class="fas fa-lock change__password"></i>
+          </li>
+        </a>
+        <a class="menu__item turnoff">
+          <li>
+            <i class="fas fa-power-off turnoff"></i>
+          </li>
+        </a>
+      </ul>
+    </nav>
+    <div class="container-md mx-auto px-4 py-4">
+      <div class="d-flex align-items-center justify-content-around">
+        <div class="col-md-6 m-4">
+          <h2>Olá, <br />Drogaria São Paulo</h2>
+        </div>
+        <div class="col-md-6 m-4">
+          <h4>Selecione a loja</h4>
+          <select class="form-select" aria-label="Default select example">
+            <option value="1">Morumbi</option>
+            <option value="2">Itaim</option>
+            <option value="3">Pinheiros</option>
+            <option value="4">Berrini</option>
+          </select>
+        </div>
+      </div>
+      <div class="d-flex justify-content-around align-items-end m-4 p-2">
+        <div>
+          <h2>Pedidos</h2>
+        </div>
+        <div>
+          <a href="/">
+            <i class="fas fa-file-pdf import__files"></i>
+          </a>
+        </div>
+        <div>
+          <a href="/">
+            <i class="far fa-file-excel import__files"></i>
+          </a>
+        </div>
+        <div>
+          <label class="form-label">Início</label>
+          <input class="form-control" type="date" />
+        </div>
+        <div>
+          <label class="form-label">Fim</label>
+          <input class="form-control" type="date" />
+        </div>
+        <div>
+          <button type="button" class="btn btn-primary btn-lg rounded">
+            Buscar
+          </button>
+        </div>
+      </div>
+      <table class="table caption-top my-4">
+        <thead>
+          <tr>
+            <th scope="col">Locker</th>
+            <th scope="col">Cliente</th>
+            <th scope="col">Pedido</th>
+            <th scope="col">Telefone</th>
+            <th scope="col">Data de criação</th>
+            <th scope="col">Status</th>
+          </tr>
+        </thead>
+        <tbody class="list__orders"></tbody>
+      </table>
+    </div>
+  </body>
+</html>
