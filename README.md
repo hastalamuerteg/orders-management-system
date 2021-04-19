@@ -37,13 +37,9 @@ And also get an overview on stock statuses, customer registers and sales.
 This project was created making use of the following technologies
 
 - HTML5
-- 
 - CSS3
-
 - BootStrap
-
 - JavaScript
-
 - JSON
 
 ​
